@@ -9,6 +9,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+/**
+ * Test class.
+ */
 @WebServlet(name = "BarServlet", urlPatterns = "/barServlet")
 public class Bar extends HttpServlet {
     
